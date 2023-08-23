@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.lg {
+    height: 127px;
+    mix-blend-mode: lighten;
+    
+}
+body{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: black;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.97);
+    
+}
+
+.navbar a{
+    float: left;
+    font-size:20px;
+    color:white;
+    text-align: center ;
+    text-decoration:none;
+    
+}
+.e{
+    border-radius: 9px;
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    background-color: #d1198e;
+    width: 134px;
+    padding: 8px 31px;
+    font-size: 2px;
+
+}
+/* .e a{
+    float: right;
+    
+    padding: 10px 30px;
+    display: block;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(55, 56, 77);
+} */
+.e:hover{
+    cursor: pointer;
+    
+    background-color: #7c7f8e;
+    
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: 34px;
+}
+
+
+.dropdown .dropbtn{
+    font-size:20px ;
+    border:none;
+    outline:none;
+    color:white;
+    padding:12px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin:0 ;
+}
+
+.dropdown-content{
+    display: none;
+    position: relative;
+    background-color: #d1198e;
+    min-width: 560px;
+    box-shadow: 0px 8px 16px 0px rbba(0,0,0,0.2);
+    z-index:1;
+    height:400px;
+    float:right;
+}
+
+.dropdown-content a{
+    float:none;
+    color:white;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+
+}
+.navhome{
+    position: fixed;
+    height:150px;
+    float:revert;
+    min-width: 50px;
+}
+.navstore{
+    position: fixed;
+    height:150px;
+    float:revert;
+    min-width: 50px;
+}
+.navcat{
+    position: fixed;
+    height:350px;
+    float:revert;
+    min-width: 100px;
+    
+}
+
+.dropdown-content a:hover{
+    background-color: #979191;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
+.s{
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    height: 576px;
+    width: 64%;
+}
+.bocks{
+    /* border: 2px solid white; */
+    height: 531px;
+    width: 624px;
+    position: absolute;
+    top: 119px;
+
+}
+.bocks img{
+    position: relative;
+    height: 31px;
+    top: 307px;
+    left: 37px;
+    filter: invert(1);
+}
+
+.bocks .hh{
+    position: relative;
+    top: 322px;
+    width: 18%;
+    padding: 10px;
+    margin: 0px 33px;
+    border-radius: 10px;
+    background-color: #d1198e;
+    color: white;
+    font-weight: 800;
+}
+.bocks .hh:hover{
+    cursor: pointer;
+    background-color: #a60d6e;
+}
+.bocks h1{
+    color: white;
+    position: relative;
+    top: 303px;
+    left: 35px;
+}
+.bocks p{
+    color: #878181;
+    position: relative;
+    top: 309px;
+    left: 37px;
+    font-weight: lighter;
+}
+.second{
+    position: absolute;
+    top: 705px;
+    left: 13px;
+    height: 293px;
+    width: 100%;
+    /* border: 2px solid white; */
+}
+/* .second img{
+    position: relative;
+    top: 800px;
+    left: 23px;
+}  */
+.second .boxes{
+    display: inline;
+    margin: 1px 0px;
+    align-items: center;
+    width: 33%;
+    /* border: 5px solid red;*/
+}
+.second .img11{
+    height: 285px;
+    width: 492px;
+    
+    border-radius: 23px;
+}
+/* .third{
+    position: absolute;
+    top: 705px;
+    left: 13px;
+    height: 293px;
+    width: 100%;
+} */
+.third{
+    display: block;
+}
+.third img{
+    width: 1506px;
+    height: 235px;
+}
+
+
+
+
+
+ .k {
+    position: absolute;
+    top:25%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:#ddd;
+    margin-left: 2%;
+ }
+
+ .t{
+    position: absolute;
+    top:35%;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 80px ;
+    color: #ddd; 
+ }
+ .button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: rgb(142, 142, 171);
+ }
+ .button2 {
+    position: absolute;
+    
+    top: 45%;
+    padding: 10px 20px;
+    background-color: rgb(83, 83, 154);
+    color: #ddd;
+    left: 102px;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ 
+ .button3 {
+    position: absolute;
+    
+    top: 140%;
+    padding: 20px 30px;
+    background-color: rgb(76, 76, 161);
+    color: #ddd;
+    right: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ .button4 {
+    position: absolute;
+    
+    top: 350%;
+    padding: 20px 30px;
+    background-color: rgb(76, 76, 161);
+    color: #ddd;
+    right: 200px;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ .button5{
+    position: absolute;
+    
+    top: 260%;
+    padding: 20px 30px;
+    background-color: rgb(76, 76, 161);
+    color: #ddd;
+    right: 72%;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ 
+ .p2{
+    position:absolute;
+    top:120%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color:#ddd;
+    right: 45px;
+ }
+ .p6{
+    position:absolute;
+    top:225%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:#ddd;
+    left: 50px;
+ }
+ .p4{
+    position:absolute;
+    top:320%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color:#ddd;
+    right: 50px;
+ }
+ .p3{
+    position: absolute;
+    top:130%;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    right: 80px ;
+    color: #ddd; 
+}
+.p5{
+    position: absolute;
+    top:330%;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 60% ;
+    color: #ddd; 
+}
+.p7{
+    position: absolute;
+    top:240%;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    right: 55% ;
+    margin-left: 50px;
+    color: #ddd; 
+}
+
+
+
+ 
